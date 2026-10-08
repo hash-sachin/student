@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Hypothetical scenario banner — hatched styling per spec */
+.hypothetical-banner {
+  background: repeating-linear-gradient(
+    45deg,
+    #9333ea11,
+    #9333ea11 10px,
+    #9333ea22 10px,
+    #9333ea22 20px
+  );
+  border: 2px solid #9333ea;
+  border-radius: 6px;
+}
